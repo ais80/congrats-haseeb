@@ -1,6 +1,187 @@
 <!doctype html>
-<html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Congratulations Haseeb</title><meta name="robots" content="noindex, nofollow"><meta name="theme-color" content="#142026">
-<style>html,body{height:100%;margin:0}body{display:grid;place-items:center;background:#142026;color:#e8f0f2;font:1.2rem/1.5 Georgia,serif;text-align:center;padding:24px}
-h1{font:800 clamp(2.6rem,12vw,5rem)/.95 Impact,"Arial Narrow",sans-serif;margin:0 0 .6rem}p{margin:0;color:#a9bcc2;font-style:italic}</style></head>
-<body><main><h1>Congratulations, Haseeb.</h1><p>The cupboard is being locked up properly. Back in a few minutes.</p></main></body></html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Congratulations Haseeb</title>
+<meta name="description" content="Seven worlds, three films, one soundtrack and a lot of love for Haseeb.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#142026">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Congratulations, Haseeb">
+<meta property="og:description" content="Turn the key. Something is waiting inside the cupboard.">
+<meta property="og:image" content="https://ais80.github.io/congrats-haseeb/assets/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23142026'/%3E%3Cpath d='M12 5h8v7h7v8h-7v7h-8v-7H5v-8h7z' fill='%2334c48d'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+<script>document.documentElement.classList.add('js','is-locked')</script>
+<noscript><style>.gate{display:none!important}.js .hero__inner{opacity:1!important}</style></noscript>
+</head>
+<body>
+
+<!-- The cupboard. Tapping the key opens the doors and starts the music. -->
+<div class="gate" id="gate" role="dialog" aria-modal="true" aria-label="Enter the site">
+  <div class="gate__door gate__door--l">
+    <p class="plate plate--l"><span class="plate__big">Controlled</span><span class="plate__small">Secured</span></p>
+  </div>
+  <div class="gate__door gate__door--r">
+    <p class="plate plate--r"><span class="plate__big">Drugs</span><span class="plate__small">Pharmaceuticals</span></p>
+  </div>
+  <button class="gate__lock" id="enter" type="button">
+    <span class="gate__disc" aria-hidden="true">
+      <svg viewBox="0 0 48 48" width="44" height="44"><path d="M24 6a10 10 0 0 0-4.6 18.8L17 41h14l-2.4-16.2A10 10 0 0 0 24 6z" fill="currentColor"/></svg>
+    </span>
+    <span class="gate__label" id="lockLabel">Turn the key</span>
+  </button>
+  <form class="gate__key" id="keyForm" hidden autocomplete="off">
+    <label for="keyInput">Paste the key from the QR link</label>
+    <span class="gate__keyrow">
+      <input id="keyInput" type="text" autocapitalize="off" autocorrect="off" spellcheck="false" placeholder="Key">
+      <button type="submit">Try key</button>
+    </span>
+  </form>
+  <p class="gate__note" id="gateNote">Haseeb is getting married. Sound on.</p>
+</div>
+
+<noscript><p class="nojs">The pictures and films are locked and need JavaScript to open.</p></noscript>
+<main id="top" tabindex="-1">
+
+  <header class="hero">
+    <div class="hero__frame">
+      <img class="hero__img" data-enc="headliner" alt="Haseeb as a long-haired rock guitarist on a festival stage, making the sign of the horns, an I love pharmacy tattoo on his forearm and the words Haseeb brought CDAlfa to ya along the bottom" decoding="async" draggable="false">
+    </div>
+    <div class="hero__inner">
+      <h1 class="hero__title"><span>Congratulations,</span> <span>Haseeb.</span></h1>
+      <p class="hero__lede">May your marriage be a sold-out tour with an encore every single night.</p>
+    </div>
+  </header>
+
+  <section class="worlds" aria-labelledby="worlds-title">
+    <div class="intro">
+      <h2 id="worlds-title">Spot the sign.</h2>
+      <p>You've been a lot of people. Wherever you went, the controlled drugs cupboard got there first. Six more worlds, six wishes.</p>
+    </div>
+
+    <figure class="scene" style="--fx:50%;--fy:30%">
+      <img data-enc="chieftain" alt="Haseeb as a Highland chieftain with a broadsword, cloud letters spelling CDAlfa overhead, beside a steel controlled drugs door set into a hillside" decoding="async" draggable="false">
+      <figcaption>
+        <h3>The Chieftain</h3>
+        <p>Wild skies and a steady sword. May every storm you meet together blow over by teatime.</p>
+      </figcaption>
+    </figure>
+
+    <figure class="scene" style="--fx:46%;--fy:40%">
+      <img data-enc="highlander" alt="Haseeb as a Highlander riding a dark horse through misty hills, a controlled drugs door in a stone hut behind" decoding="async" draggable="false">
+      <figcaption>
+        <h3>The Highlander</h3>
+        <p>Long roads and a steady horse. May every road from here lead the two of you home.</p>
+      </figcaption>
+    </figure>
+
+    <figure class="scene" style="--fx:62%;--fy:30%">
+      <img data-enc="pict" alt="Haseeb as a blue-painted Pictish warrior with a spear and round shield, beside a mossy controlled drugs door" decoding="async" draggable="false">
+      <figcaption>
+        <h3>The Pict</h3>
+        <p>Painted for battle, softened for love. May you always fight over the last biscuit, and always share it.</p>
+      </figcaption>
+    </figure>
+
+    <figure class="scene" style="--fx:60%;--fy:30%">
+      <img data-enc="samurai" alt="Haseeb as a samurai in lacquered armour at a tea tray, a controlled drugs sign in Japanese and English on the wall" decoding="async" draggable="false">
+      <figcaption>
+        <h3>The Samurai</h3>
+        <p>Calm hands, careful measures. May your patience outlast every argument about the thermostat.</p>
+      </figcaption>
+    </figure>
+
+    <figure class="scene" style="--fx:52%;--fy:30%">
+      <img data-enc="tsar" alt="Haseeb as a Tsar in a fur-trimmed coat on a gilded throne, a secured pharmaceuticals vault open beside him" decoding="async" draggable="false">
+      <figcaption>
+        <h3>The Tsar</h3>
+        <p>A full table, a loud house and a seriously good coat. May your home always be warm.</p>
+      </figcaption>
+    </figure>
+
+    <figure class="scene" style="--fx:50%;--fy:40%">
+      <img data-enc="orca" alt="Haseeb riding a cybernetic orca through a stormy sea past a burning platform and a controlled drugs airlock" decoding="async" draggable="false">
+      <figcaption>
+        <h3>The Orca Rider</h3>
+        <p>Whatever the tide, ride it together. May every wave be one you catch side by side.</p>
+      </figcaption>
+    </figure>
+  </section>
+
+  <section class="acts" id="films" aria-labelledby="films-title">
+    <div class="intro">
+      <h2 id="films-title">Haseeb brought CDAlfa to ya</h2>
+      <p>Three films. Watch them in order.</p>
+    </div>
+    <ol class="acts__list">
+      <li class="act">
+        <p class="act__when"><span class="act__n" aria-hidden="true">1</span>Before the rollout</p>
+        <h3>The Viking</h3>
+        <video controls playsinline preload="none" data-enc="viking" controlslist="nodownload noplaybackrate" disablepictureinpicture disableremoteplayback aria-label="The Viking, before the rollout"></video>
+      </li>
+      <li class="act">
+        <p class="act__when"><span class="act__n" aria-hidden="true">2</span>During the rollout</p>
+        <h3>The Rockstar</h3>
+        <video controls playsinline preload="none" data-enc="rockstar" controlslist="nodownload noplaybackrate" disablepictureinpicture disableremoteplayback aria-label="The Rockstar, during the rollout"></video>
+      </li>
+      <li class="act">
+        <p class="act__when"><span class="act__n" aria-hidden="true">3</span>After the wedding</p>
+        <h3>The Bollywood Hero</h3>
+        <video controls playsinline preload="none" data-enc="bollywood" controlslist="nodownload noplaybackrate" disablepictureinpicture disableremoteplayback aria-label="The Bollywood Hero, after the wedding"></video>
+      </li>
+    </ol>
+    <p class="acts__note">The music pauses while a film plays, then carries on.</p>
+  </section>
+
+  <section class="sound" id="music" aria-labelledby="music-title">
+    <div class="sound__bg" data-enc-bg="orca" aria-hidden="true"></div>
+    <div class="sound__inner">
+      <h2 id="music-title">The soundtrack</h2>
+      <p class="sound__lede">Horizon Burns Tonight has been playing since the doors opened, and it opens with the line itself. Pick any other track and it will hand back to the ballad when it ends.</p>
+      <ol class="tracks" id="tracks"></ol>
+    </div>
+  </section>
+
+  <section class="rx" aria-labelledby="rx-title">
+    <article class="label">
+      <header class="label__head">
+        <svg class="label__cross" viewBox="0 0 32 32" width="34" height="34" aria-hidden="true"><path d="M12 3h8v9h9v8h-9v9h-8v-9H3v-8h9z" fill="currentColor"/></svg>
+        <h2 id="rx-title">Haseeb's happy ever after</h2>
+      </header>
+      <dl class="label__rows">
+        <div><dt>Patient</dt><dd>Haseeb, and the very lucky person who said yes</dd></div>
+        <div><dt>Medication</dt><dd>Marriage. Lifetime supply.</dd></div>
+        <div><dt>Directions</dt><dd>Take daily with laughter. Share generously. Repeat.</dd></div>
+        <div><dt>Warnings</dt><dd>May cause giddiness, happy tears and far too many photographs. Do not stop taking early.</dd></div>
+        <div><dt>Refills</dt><dd>Unlimited</dd></div>
+        <div><dt>Expiry</dt><dd>Never</dd></div>
+        <div><dt>Prescribed by</dt><dd>Everyone who scanned the code</dd></div>
+      </dl>
+    </article>
+    <p class="signoff">Congratulations, Haseeb. Go and have the best day of your life.</p>
+    <p class="signoff__small">With love from all of us.</p>
+  </section>
+
+</main>
+
+<!-- Mini player: stays on screen so the music can always be paused -->
+<div class="dock" id="dock" hidden>
+  <button class="dock__btn" id="dockToggle" type="button" aria-label="Pause music">
+    <svg class="i-pause" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M6 4h4v16H6zM14 4h4v16h-4z" fill="currentColor"/></svg>
+    <svg class="i-play" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M7 4l13 8-13 8z" fill="currentColor"/></svg>
+  </button>
+  <span class="dock__title" id="nowTitle">Horizon Burns Tonight</span>
+  <a class="dock__link" href="#music">All tracks</a>
+  <span class="dock__bar" aria-hidden="true"><i id="bar"></i></span>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

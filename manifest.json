@@ -1,0 +1,86 @@
+{
+"chieftain-1920": {
+"f": "m/965304ebb011548d.bin",
+"t": "image/webp"
+},
+"chieftain-960": {
+"f": "m/7b669a9c4bd583f5.bin",
+"t": "image/webp"
+},
+"headliner-1400": {
+"f": "m/6726880d0dcdb455.bin",
+"t": "image/webp"
+},
+"headliner-700": {
+"f": "m/e25b86d2ce3f0fdf.bin",
+"t": "image/webp"
+},
+"highlander-1920": {
+"f": "m/704670be85eed686.bin",
+"t": "image/webp"
+},
+"highlander-960": {
+"f": "m/14217ce249a9f964.bin",
+"t": "image/webp"
+},
+"orca-1920": {
+"f": "m/cb0da2119394bdf1.bin",
+"t": "image/webp"
+},
+"orca-960": {
+"f": "m/d3e4ba03ba123a9e.bin",
+"t": "image/webp"
+},
+"pict-1920": {
+"f": "m/a4f0f4969b61f454.bin",
+"t": "image/webp"
+},
+"pict-960": {
+"f": "m/735d0442e906fb4f.bin",
+"t": "image/webp"
+},
+"samurai-1920": {
+"f": "m/4c4126fcec2260d8.bin",
+"t": "image/webp"
+},
+"samurai-960": {
+"f": "m/ed42610db7d4508e.bin",
+"t": "image/webp"
+},
+"tsar-1920": {
+"f": "m/14591cd395a8efe3.bin",
+"t": "image/webp"
+},
+"tsar-960": {
+"f": "m/2323212860cbb122.bin",
+"t": "image/webp"
+},
+"bollywood": {
+"f": "m/51c51cce1807e0bf.bin",
+"t": "video/mp4"
+},
+"bollywood-poster": {
+"f": "m/891262c7b67fab04.bin",
+"t": "image/webp"
+},
+"rockstar": {
+"f": "m/14c420fc899e9068.bin",
+"t": "video/mp4"
+},
+"rockstar-poster": {
+"f": "m/8fef4ffc6df1eaac.bin",
+"t": "image/webp"
+},
+"viking": {
+"f": "m/d9800faf2be76871.bin",
+"t": "video/mp4"
+},
+"viking-poster": {
+"f": "m/afd9e41b8fd1c110.bin",
+"t": "image/webp"
+},
+"check": {
+"f": "m/bcf82390a8c9292e.bin",
+"t": "text/plain"
+}
+}
